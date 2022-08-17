@@ -1,12 +1,17 @@
 Con tus palabras explica los siguientes conceptos.
 
 
-- Protoype
+- Prototype: Es cuando los objetos heredan caracterissticas del objeto  "padre".
 
 - Explica con un ejemplo en donde haya un super super type, un super type y un subtype
 
-- Que son los Object
+- Que son los Object: Es un tipo de dato, usado para guardar  datos definidos.
 
 - Explica por lo menos 5 metodos de los Object
+-Object.create:Para crear el prototipo de un objeto
+-Object.assign():Para copiar valores de un objeto a otro.
+-Object.getPrototypeOf():Para obtener la propiedad interna oculta de un objeto, accesible a través de "_proto_".
+-Object.getOwnPropertyNames(): devuelve un arreglo con las propiedades de un objeto
+-forEach(): ejecuta la función una vez por cada elemento del arreglo.
 
-- Que hace Object.keys?
+- Que hace Object.keys? Devuelve un arreglo con todos los nombres de propiedades de un objeto
